@@ -1,0 +1,61 @@
+.container {
+  width: 100vw;
+  max-width: 360px;
+  /* min-height: 100vh; */
+  margin-bottom: 100px;
+}
+
+.bg {
+  height: 630px;
+  /* display: flex; */
+  width: 362px;
+}
+
+.shape {
+  position: absolute;
+}
+
+.end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.full {
+  width: 100%;
+}
+
+.col {
+  flex-direction: column;
+  display: flex;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.semibold {
+  font-weight: 600;
+}
+.white {
+  color: white;
+}
+
+.container2 {
+  padding: 10px 20px;
+  /* width: 100%; */
+}
+.black {
+  color: black;
+}
+input {
+  padding: 0 25px;
+}
+span {
+  cursor: pointer;
+}
